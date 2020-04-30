@@ -4,6 +4,7 @@
 
 
 ###USAGE
+
 ```
 python3 gif_generator.py 'filename'
 ```
