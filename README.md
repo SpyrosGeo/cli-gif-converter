@@ -3,7 +3,7 @@
 ## cli gif converter tool 
 
 
-###USAGE
+### USAGE
 
 ```
 python3 gif_generator.py 'filename'
