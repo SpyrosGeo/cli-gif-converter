@@ -1,7 +1,10 @@
 import imageio
 import os
+import sys
 
-clip = os.path.abspath('test.mp4')
+#get input from system
+file_name = sys.argv[1]
+clip = os.path.abspath(file_name)
 
 
 def gif_maker(inputPath, targetFormat):
@@ -15,7 +18,7 @@ def gif_maker(inputPath, targetFormat):
     
     for frames in reader:
         writer.append_data(frames)
-        print(f'frame{frames}')
+        # print(f'frame{frames}')
 
     print('done')
     writer.close()
